@@ -6,6 +6,8 @@ PixPoint is built with PyQt5. It is useful for developers, designers, computer v
 
 [中文说明](README.zh-CN.md)
 
+![PixPoint screenshot](docs/screenshot.png)
+
 ## Highlights
 
 - Pick exact pixel coordinates from the original image.
@@ -46,6 +48,12 @@ You can also open an image directly from the command line:
 ```bash
 python main.py your_image.png
 ```
+
+## Windows Build
+
+A Windows executable can be packaged from this project. The current local build is `ImgPosition V1.2.exe`.
+
+For public distribution, publish the executable as a GitHub Release asset rather than committing it directly to the repository.
 
 ## How To Use
 

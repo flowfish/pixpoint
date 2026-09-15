@@ -13,6 +13,7 @@ pip-wheel-metadata/
 # Build artifacts
 build/
 dist/
+release-assets/
 *.spec
 
 # Local files
