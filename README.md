@@ -1,5 +1,7 @@
 # PixPoint
 
+Current version: `v1.2`
+
 A tiny local desktop tool for picking exact pixel coordinates from images.
 
 PixPoint is built with PyQt5. It is useful for developers, designers, computer vision experiments, UI automation, image inspection, and lightweight annotation workflows where you need accurate original-image coordinates.
@@ -33,11 +35,44 @@ PixPoint is built with PyQt5. It is useful for developers, designers, computer v
 
 PixPoint requires Python 3 and the dependencies listed in `requirements.txt`.
 
+If you only want to use the Windows app, download the packaged build from the latest release:
+
+- [Download PixPoint v1.2 for Windows](https://github.com/flowfish/pixpoint/releases/tag/v1.2)
+
+If you want to run PixPoint from source, clone the repository first:
+
+```bash
+git clone https://github.com/flowfish/pixpoint.git
+cd pixpoint
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it on Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Activate it on macOS / Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Run
+
+Start the app:
 
 ```bash
 python main.py

@@ -1,5 +1,7 @@
 # 图片取点工具
 
+当前版本：`v1.2`
+
 一个基于 PyQt5 的图片坐标拾取工具，适合查看大图、精确定位像素点并导出坐标。
 
 ## 功能说明
@@ -19,7 +21,36 @@
 
 ## 启动方式
 
-先安装依赖：
+如果只是想直接使用 Windows 版本，可以从 GitHub Release 下载：
+
+- [下载 PixPoint v1.2 Windows 版本](https://github.com/flowfish/pixpoint/releases/tag/v1.2)
+
+如果想从源码运行，先克隆项目：
+
+```bash
+git clone https://github.com/flowfish/pixpoint.git
+cd pixpoint
+```
+
+创建虚拟环境：
+
+```bash
+python -m venv .venv
+```
+
+在 Windows 上激活虚拟环境：
+
+```bash
+.venv\Scripts\activate
+```
+
+在 macOS / Linux 上激活虚拟环境：
+
+```bash
+source .venv/bin/activate
+```
+
+安装依赖：
 
 ```bash
 pip install -r requirements.txt
