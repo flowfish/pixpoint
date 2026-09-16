@@ -1,10 +1,10 @@
-# PixPoint
+# PixPoint: Pixel Coordinate Picker & Image Annotation Tool
 
 Current version: `v1.2`
 
-A tiny local desktop tool for picking exact pixel coordinates from images.
+A local desktop tool for picking exact pixel coordinates from images and creating lightweight image annotations.
 
-PixPoint is built with PyQt5. It is useful for developers, designers, computer vision experiments, UI automation, image inspection, and lightweight annotation workflows where you need accurate original-image coordinates.
+PixPoint is built with PyQt5 and is useful for developers, designers, computer vision experiments, UI automation, pixel inspection, and image annotation workflows that need accurate original-image coordinates.
 
 [中文说明](README.zh-CN.md)
 
